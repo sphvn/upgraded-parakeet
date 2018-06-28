@@ -1,0 +1,28 @@
+{
+  "name": "upgraded-parakeet",
+  "homepage": "https://github.com/sphvn/upgraded-parakeet",
+  "authors": [
+    "https://github.com/sphvn"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sphvn/upgraded-parakeet"
+  },
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "output",
+    "dist"
+  ],
+  "dependencies": {
+    "purescript-prelude": "4.0.0",
+    "purescript-console": "4.0.0",
+    "purescript-effect": "2.0.0",
+    "purescript-spork": "1.0.0"
+  },
+  "devDependencies": {
+    "purescript-psci-support": "4.0.0"
+  }
+}

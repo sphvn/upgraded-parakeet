@@ -1,0 +1,16 @@
+{
+  "private": true,
+  "scripts": {
+    "postinstall": "bower install",
+    "build": "npm run build:pulp && npm run build:static",
+    "build:static": "cp -R static/ dist/",
+    "build:pulp": "pulp build -I src --to dist/main.js -m Main",
+    "clean": "rm -rf dist/ && rm -rf node_modules/ && rm -rf bower_components/ && rm -rf output/ && rm -rf .pulp-cache"
+  },
+  "devDependencies": {
+    "bower": "1.8.4",
+    "pulp": "12.3.0",
+    "purescript": "0.12.0",
+    "purescript-psa": "0.6.0"
+  }
+}
